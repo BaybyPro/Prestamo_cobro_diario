@@ -12,5 +12,5 @@ export class Global{
 
     public static error :string = "error"
     //HTTP
-    public static apiUrl:string="http://127.0.0.1:8000/api"
+    public static apiUrl:string="https://procompu.net.pe/pruebApi/api"
 }
