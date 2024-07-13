@@ -17,7 +17,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained('users');
             $table->decimal('amount',7,2);
             $table->decimal('total',7,2);
-            $table->decimal('missing',5,2);
+            $table->decimal('missing',7,2);
             $table->date('date_start');
             $table->date('date_end');
             $table->string('interest',3)->nullable();
