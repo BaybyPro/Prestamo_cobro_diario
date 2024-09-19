@@ -17,8 +17,6 @@ export class AppComponent implements OnInit{
 
   }
   ngOnInit(): void {
-    initTWE({ Tooltip,Ripple });
 
-    this.disableClick.disableRightClick();
   }
 }
